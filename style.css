@@ -73,6 +73,7 @@
 .img-header {
     width: 450px;
     height: 550px;
+    margin-bottom: -10px;
 }
 
 /* header style close */
@@ -160,6 +161,85 @@
 
 
 
+/* gallery style start */
+.gallery-container {
+    padding: 100px 180px;
+}
+
+.gallery-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.gallery {
+    width: 33%;
+    height: 350px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 1px 1px 3px gray;
+
+}
+
+.gallery-content-1 {
+    background-image: url('img/new1.jpg');
+}
+
+.gallery-content-1:hover {
+    background-image: url('img/new6.png');
+}
+
+.gallery-content-2 {
+    background-image: url('img/new2.jpg');
+}
+
+.gallery-content-2:hover {
+    background-image: url('img/new5.png');
+}
+
+.gallery-content-3 {
+    background-image: url('img/new3.jpg');
+}
+
+.gallery-content-3:hover {
+    background-image: url('img/new4.png');
+}
+
+
+.gallery-content-4 {
+    background-image: url('img/new4.png');
+}
+
+.gallery-content-4:hover {
+    background-image: url('img/new3.jpg');
+}
+
+.gallery-content-5 {
+    background-image: url('img/new5.png');
+}
+
+.gallery-content-5:hover {
+    background-image: url('img/new2.jpg');
+}
+
+.gallery-content-6 {
+    background-image: url('img/new6.png');
+}
+
+.gallery-content-6:hover {
+    background-image: url('img/new1.jpg');
+}
+
+
+/* Instagram style close*/
+
+
+
+
+
 /* Hot deal style start*/
 .hot-deal-container {
     height: 600px;
@@ -223,7 +303,6 @@
 .instagram-content-3 {
     background-image: url('img/Rectangle\ 5.png');
 }
-
 
 .instagram-content-4 {
     background-image: url('img/Rectangle\ 6.png');
