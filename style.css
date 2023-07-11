@@ -1,0 +1,156 @@
+* {
+    font-family: 'Lato', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* common style  */
+
+.primary-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+
+}
+
+.primary-description {
+    width: 594px;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin: auto;
+    padding: 25px 0px;
+}
+
+
+.primary-btn {
+    color: #FFF;
+    background: #E55473;
+    padding: 20px 40px;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+
+}
+
+
+
+
+/* header style start */
+.header-container {
+    height: 100vh;
+    background-color: rgba(229, 84, 115, 0.10);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 200px;
+}
+
+.header-title {
+    color: #272727;
+    font-size: 44px;
+    font-weight: 800;
+
+}
+
+.header-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    padding: 25px 0px;
+}
+
+.header-img {
+    display: flex;
+    align-items: end;
+}
+
+.img-header {
+    width: 450px;
+    height: 550px;
+}
+
+/* header style close */
+
+
+
+
+/* about style start */
+.about-container {
+    height: auto;
+    padding: 150px 200px 100px;
+    text-align: center;
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+
+.about-caption {
+    margin-top: 20px;
+    width: 400px;
+    height: 450px;
+
+}
+
+
+.about-flower {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding: 50px 20px 0px 20px;
+    margin-bottom: 25px;
+}
+
+.about-img {
+    width: 250px;
+    height: 350px;
+}
+
+.flower-2 {
+    background-color: #0597A026;
+}
+
+.flower-3 {
+    background-color: #477D1126;
+}
+
+.caption {
+    color: #272727;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration-line: underline;
+}
+
+/* about style close */
+
+
+
+
+
+/* service style start */
+.service-container {
+    height: 320px;
+    background-color: rgba(39, 39, 39, 0.05);
+    margin: 0px 200px 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.service-description {
+    color: rgba(39, 39, 39, 0.80);
+    padding-top: 25px;
+    font-size: 18px;
+}
+
+/* service style close*/
