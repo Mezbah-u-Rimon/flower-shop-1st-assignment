@@ -229,5 +229,36 @@
     background-image: url('img/Rectangle\ 6.png');
 }
 
-
 /* Instagram style close*/
+
+
+
+
+
+.latest-container {
+    margin: 0px 180px 100px;
+}
+
+.latest-content {
+    height: 350px;
+    background-image: url("img/Rectangle\ 9.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.latest-title {
+    padding-top: 80px;
+}
+
+.email {
+    padding: 20px 300px 20px 20px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+    background-color: white;
+    border-radius: 8px;
+
+}
