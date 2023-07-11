@@ -235,6 +235,7 @@
 
 
 
+/* Latest style start*/
 .latest-container {
     margin: 0px 180px 100px;
 }
@@ -260,5 +261,40 @@
     border: none;
     background-color: white;
     border-radius: 8px;
+    margin-right: 10px;
 
 }
+
+/* Latest style close*/
+
+
+
+
+
+/* footer style start */
+.footer-container {
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 100px 180px;
+}
+
+.footer-title {
+    color: white;
+}
+
+.footer-title span {
+    color: #E55473;
+}
+
+.footer-description {
+    color: rgba(255, 255, 255, 0.90);
+}
+
+.copy-right {
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.40);
+}
+
+
+/* footer style close */
